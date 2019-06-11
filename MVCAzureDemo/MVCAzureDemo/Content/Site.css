@@ -1,0 +1,74 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: url('Images/Spyglass.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+}
+
+.landing {
+    
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 290px;
+}
+.panel {
+    background-color: rgba(255, 255, 255, 0)
+}
+.proxbox {
+    background-color: rgba(60, 148, 150, 0.95);
+    color: white;
+}
+.proxboxhome {
+    background-color: rgba(60, 148, 150, 0.75);
+    color: white;
+}
+.expbox {
+    background-color: rgba(145,88, 165, 0.75);
+    color: white;
+}
+.exprbox {
+    background-color: rgba(46,176,225, 0.75);
+    color: white;
+}
+.focbox {
+    background-color: rgba(155,202,106, 0.75);
+    color: white;
+}
+.databox {
+    background-color: rgba(12,12,12, 0.75);
+    color: white;
+}
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+select,
+input {
+    color: black;
+}
